@@ -22,7 +22,7 @@ nav{
     text-align: right;
 }
 .row{
-    margin-top: 150px;
+    margin-top: 80px;
     margin-left: 100px;
     margin-right: 100px;
     align-items: center;
@@ -62,7 +62,31 @@ a{
 }
 
 footer {
-    height: 200px;
+    height: 130px;
     background-color: #242424c0;
+    background-color: #000;
+    border-top: rgb(102, 102, 102) solid 0.5px;
     margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi {
+    color: #fff;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ig {
+    margin-right: 20px;
+}
+
+.relleno {
+    color: #fff;
+    margin-top: 0.8rem;
 }

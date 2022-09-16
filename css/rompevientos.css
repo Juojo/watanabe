@@ -1,0 +1,42 @@
+.cartel {
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    flex-direction: column;
+    color: #fff;
+    /* background-color: rgb(221, 44, 31); */
+    border: #fff solid 0.5px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.cartel a {
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(136, 136, 255) !important;
+}
+
+.cartel h2 {
+    color: var(--bs-danger);
+    text-decoration: underline;
+}
+
+.cartel a:hover {
+    color: rgb(93, 93, 179) !important;
+}
+
+.info p {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.espacio-cartel {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+footer {
+    margin-top: 150px;
+}
