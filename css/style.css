@@ -11,6 +11,10 @@ body {
     background-image: url("../img/bg.jpg");
 }
 
+.inverted {
+    background-image: url("../img/bg_inverted.png");
+}
+
 .nav-bar{
     display: flex;
     align-items: center;
@@ -89,4 +93,16 @@ footer {
 .relleno {
     color: #fff;
     margin-top: 0.8rem;
+}
+
+.moon-holder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.moon-holder:nth-child(1) {
+    padding-top: 27px;
+    padding-right: 27px;
+    font-size: 22px;
+    cursor: pointer;
 }
